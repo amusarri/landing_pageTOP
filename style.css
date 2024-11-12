@@ -20,13 +20,13 @@ body{
 ul {
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    gap: 8px;
     flex-shrink: 0;
 }
 
