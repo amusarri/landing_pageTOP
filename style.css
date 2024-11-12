@@ -45,7 +45,7 @@ a {
 .banner {
     display: flex;
     background-color: #1f2937;
-    flex-direction: row;
+    flex-direction: column;
     margin: #1f2937;
     padding: 60px 30px 60px 60px;
     width: 600px;
@@ -73,6 +73,7 @@ p {
     width: 350px;
     height: 150px;
     background-color: #1f2937;
+    margin-bottom: 70px #1f2937;
 }
 
 #image {
@@ -80,12 +81,13 @@ p {
     width: 350px;
     background-color: rgb(125, 125, 125);
     color: #e5e7eb;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .signup {
-    color: #3882f6;
+    background-color: #3882f6;
     width: 75px;
     display: flex;
     justify-content: center;
