@@ -2,6 +2,39 @@ body{
     font: Roboto;
 }
 
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.logo {
+    color: #f9faf8;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: flex-end;
+    gap: 8px
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     background-color: #1f2937;
     display: flex;
