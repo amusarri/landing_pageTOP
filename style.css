@@ -2,6 +2,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    margin: 0px, 50px;
+    box-sizing: border-box;
 }
 
 .header {
@@ -10,6 +12,7 @@ body{
     padding: 28px;
     justify-content: space-between;
     align-items: center;
+    margin: #1f2937;
 }
 
 #logo {
@@ -36,9 +39,14 @@ a {
 .banner {
     display: flex;
     background-color: #1f2937;
+    margin: #1f2937;
+    padding: 60px;
+}
 
-
-    
+#hero_main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 
