@@ -6,8 +6,10 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    padding: 48px;
 }
 
 #trademark {
     font-size: 18px;
+    color: #e5e7eb;
 }
