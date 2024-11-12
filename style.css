@@ -1,6 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    flex-direction: row;
 }
 
 .header {
@@ -34,6 +35,7 @@ a {
 
 .banner {
     display: flex;
+    background-color: #1f2937;
 
     
 }
