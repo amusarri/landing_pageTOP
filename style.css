@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    margin: 0px, 50px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -49,9 +49,18 @@ a {
     color: #f9faf8;
 }
 
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 
+}
 
-
+#image {
+    height: 200px;
+    width: 300px;
+    background-color: lightgray;
+    color: #e5e7eb;
+}
 
 
 
