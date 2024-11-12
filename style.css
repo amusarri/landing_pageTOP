@@ -1,5 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 
 .header {
@@ -31,7 +32,11 @@ a {
     flex-shrink: 0;
 }
 
+.banner {
+    display: flex;
 
+    
+}
 
 
 
@@ -50,6 +55,6 @@ a {
 }
 
 #trademark {
-    font-size: 18px;
+    font-size: 12px;
     color: #e5e7eb;
 }
