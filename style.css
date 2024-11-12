@@ -36,6 +36,11 @@ a {
     flex-shrink: 0;
 }
 
+.banner_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
 .banner {
     display: flex;
     background-color: #1f2937;
