@@ -1,0 +1,13 @@
+body{
+    font: Roboto;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+#trademark {
+    font-size: 18px;
+}
