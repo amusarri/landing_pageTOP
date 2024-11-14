@@ -63,6 +63,7 @@ p {
     width: 400px;
     display: flex;
     margin-bottom: 8px;
+    font-weight: lighter;
 }
 
 .image_cont{
@@ -85,7 +86,7 @@ p {
 
 .signup1 {
     background-color: #3882f6;
-    width: 75px;
+    width: 90px;
     display: flex;
     justify-content: center;
     color: #f9faf8;
@@ -137,7 +138,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 80px;
     flex-direction: column;
 }
 
@@ -151,11 +152,15 @@ p {
     align-self: flex-end;
     font-size: 18px;
     font-weight: bold;
+    padding-right: 400px;
 }
 
 .call_to_action {
     display: flex;
-    margin: 80px, 100px;
+    margin: 100px 200px;
+    padding: 25px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
     background-color: #3882f6;
     color: #f9faf8;
     justify-content: center;
@@ -177,11 +182,12 @@ p {
 
 #action_subtitle {
     font-size: 14px;
+    font-weight: lighter;
 }
 
 .signup2 {
     background-color: #3882f6;
-    width: 75px;
+    width: 90px;
     display: flex;
     justify-content: center;
     color: #f9faf8;
