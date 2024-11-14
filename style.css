@@ -62,7 +62,6 @@ p {
     color: #e5e7eb;
     width: 400px;
     display: flex;
-    margin-bottom: 8px;
     font-weight: lighter;
 }
 
@@ -100,15 +99,16 @@ p {
     align-items: center;
     font-size: 36px;
     color: #1f2937;
-    padding: 30px;
+    padding: 40px;
     font-weight: 900;
+    margin-top: 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly;
     gap: 52px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .div_block {
@@ -144,7 +144,8 @@ p {
 
 #quote_text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     max-width: 50%;
 }
 
