@@ -75,7 +75,7 @@ p {
 
 #image {
     height: 125px;
-    width: 350px;
+    width: 60%;
     background-color: rgb(125, 125, 125);
     color: #e5e7eb;
     align-items: center;
@@ -97,6 +97,7 @@ p {
     align-items: center;
     font-size: 36px;
     color: #1f2937;
+    padding: 30;
 }
 
 .container {
@@ -114,6 +115,8 @@ p {
 
 .subtext {
     max-width: 200px;
+    color: gray;
+    font-size: 18px;
 }
 
 .footer {
