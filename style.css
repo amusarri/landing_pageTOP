@@ -105,6 +105,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     gap: 52px;
+    margin-bottom: 30px;
 }
 
 .div_block {
@@ -137,7 +138,7 @@ p {
     padding: 60px;
 }
 
-#quote_id {
+#quote_text {
     font-size: 36px;
     font-style: italic;
     max-width: 50%;
