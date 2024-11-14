@@ -74,8 +74,8 @@ p {
 }
 
 #image {
-    height: 125px;
-    width: 60%;
+    height: 150px;
+    width: 80%;
     background-color: rgb(125, 125, 125);
     color: #e5e7eb;
     align-items: center;
@@ -83,12 +83,14 @@ p {
     display: flex;
 }
 
-.signup {
+.signup1 {
     background-color: #3882f6;
     width: 75px;
     display: flex;
     justify-content: center;
     color: #f9faf8;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
 }
 
 #title {
@@ -149,6 +151,42 @@ p {
     align-self: flex-end;
     font-size: 18px;
     font-weight: bold;
+}
+
+.call_to_action {
+    display: flex;
+    margin: 80px, 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_to_action {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+#action_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#action_subtitle {
+    font-size: 14px;
+}
+
+.signup2 {
+    background-color: #3882f6;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
 }
 
 .footer {
