@@ -97,7 +97,8 @@ p {
     align-items: center;
     font-size: 36px;
     color: #1f2937;
-    padding: 30;
+    padding: 30px;
+    font-weight: 900;
 }
 
 .container {
@@ -106,17 +107,46 @@ p {
     gap: 52px;
 }
 
+.div_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
 .block {
-    width: 100px;
-    height: 100px;
-    border: 3px #3882f6;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
     border-radius: 8px;
+    margin: 10px;
 }
 
 .subtext {
     max-width: 200px;
     color: gray;
     font-size: 18px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #bebfc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+#quote_id {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 50%;
+}
+
+#qoute_by {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
